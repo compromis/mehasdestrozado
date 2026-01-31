@@ -1,5 +1,23 @@
 <template>
-  <section class="intro" id="intro">
+  <section v-if="$i18n.locale === 'cas'" class="intro" id="intro">
+    <article class="card rounded shadow intro-card">
+      <p>El <strong>Metro y la EMT</strong> en València suponen hoy:</p>
+      <ul class="arrow-list">
+        <li>Esperas eternas.</li>
+        <li>No saber si llegarás a tiempo a trabajar o estudiar.</li>
+        <li>Buses y vagones saturados en horas punta.</li>
+        <li>Buses que pasan de largo porque van llenos.</li>
+        <li>Pantallas y relojes que no funcionan o funcionan mal.</li>
+        <li>Averías continuas en las vías, las escaleras mecánicas o los accesos.</li>
+        <li>… y además: el precio del billete ha subido y subirá.</li>
+      </ul>
+      <p>Los <strong>gobiernos de PP y VOX han convertido el transporte público en un calvario</strong>. La falta de inversión y una dejadez total repercuten en nuestras vidas, nuestro trabajo, nuestra calidad de vida.</p>
+    </article>
+    <aside class="video shadow">
+      <IntroVideo />
+    </aside>
+  </section>
+   <section v-else class="intro" id="intro">
     <article class="card rounded shadow intro-card">
       <p>El <strong>Metro i EMT</strong> a València suposen hui:</p>
       <ul class="arrow-list">

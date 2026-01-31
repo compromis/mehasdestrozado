@@ -1,5 +1,29 @@
 <template>
-  <section class="faq-list">
+  <section v-if="$i18n.locale === 'cas'" class="faq-list">
+    <h2>
+      ¿Qué proponemos desde Compromís?
+    </h2>
+    
+  <div class="card shadow rounded">
+    <p><strong>Para el metro, exigimos:</strong></p>
+    <ul class="arrow-list">
+      <li>Un plan de choque urgente para mejorar frecuencias y fiabilidad.</li>
+      <li>Más vagones y más personal, no menos.</li>
+      <li>Inversión real en mantenimiento e información en las estaciones.</li>
+      <li>La planificación de nuevas líneas que conecten municipios como Xirivella, Alaquàs o Aldaia con València. También impulsar las nuevas líneas 11 y 12 y la ampliación de la 10.</li>
+      <li>Una gestión profesional que ponga a las personas usuarias en el centro.</li>
+    </ul>
+    <p><strong>Para la EMT, defendemos:</strong></p>
+    <ul class="arrow-list">
+      <li>Recuperar todas las expediciones canceladas y reforzar las líneas saturadas.</li>
+      <li>Cubrir bajas y ampliar plantillas de conductores y mecánicos.</li>
+      <li>Garantizar el Servicio Especial para personas con movilidad reducida.</li>
+      <li>Poner orden en la situación económica con transparencia y una auditoría independiente en la EMT.</li>
+      <li>Asegurar todas las ayudas posibles al transporte público, cumpliendo con las obligaciones ambientales.</li>
+    </ul>
+  </div>
+  </section>
+  <section v-else class="faq-list">
     <h2>
       Què proposem des de Compromís?
     </h2>
