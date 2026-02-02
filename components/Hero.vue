@@ -13,4 +13,11 @@
   letter-spacing: 0;
   padding-block: 4rem;
 }
+
+@include media-breakpoint-down(md) { 
+  .headline {
+    font-size: var(--text-4xl);
+    padding-block: 2rem;
+  }
+}
 </style>
