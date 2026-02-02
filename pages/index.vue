@@ -6,7 +6,7 @@ useSeoMeta({
   ogTitle: t('seo.title'),
   description: t('seo.description'),
   ogDescription: t('seo.description'),
-  ogImage: 'https://salvemescoles.compromis.net/images/ogimage.png',
+  ogImage: 'https://mehasdestrozado.compromis.net/images/ogimage.png',
   twitterCard: 'summary_large_image',
 })
 </script>

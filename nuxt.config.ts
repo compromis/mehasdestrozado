@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'Salvem escoles - Compromís',
+      title: 'Maria José Catalá, t’estàs carregant el transport públic - Compromís',
       htmlAttrs: {
         lang: 'ca',
       },
