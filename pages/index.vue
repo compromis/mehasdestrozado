@@ -8,6 +8,7 @@ useSeoMeta({
   ogDescription: t('seo.description'),
   ogImage: 'https://mehasdestrozado.compromis.net/images/ogimage.png',
   twitterCard: 'summary_large_image',
+  keywords: 'valencia, metro, buses, emt, maria jose catala, pp, vox, compromís, transport públic',
 })
 </script>
 
