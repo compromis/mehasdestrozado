@@ -31,7 +31,7 @@
       </ul>
       <p>Els <strong>governs de PP i VOX han convertit moure’s en transport públic en un calvari</strong>. La manca d’inversió i una deixadesa total repercuteixen en les nostres vides, la nostra feina, la nostra qualitat de vida. </p>
     </article>
-    <aside class="d-none video shadow">
+    <aside class="video shadow">
       <IntroVideo />
     </aside>
   </section>
@@ -44,8 +44,7 @@
 .intro {
   margin: calc(2rem + 5vh) 0;
   display: grid;
-  // grid-template-columns: 2.5fr 1fr;
-  grid-template-columns: 1fr;
+  grid-template-columns: 2.5fr 1fr;
   gap: 1rem;
 }
 

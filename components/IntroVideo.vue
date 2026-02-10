@@ -2,7 +2,7 @@
 const video = ref()
 
 const { playing, currentTime, duration } = useMediaControls(video, {
-  src: '/video/intro.mp4'
+  src: '/video/transport.mp4'
 })
 
 const progress = computed(() => {
