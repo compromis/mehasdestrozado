@@ -76,6 +76,8 @@ ul.arrow-list {
     color: var(--primary);
     font-size: 2em;
     line-height: 0.75;
+    white-space: nowrap;
+    flex-shrink: 0;
   }
 }
 
